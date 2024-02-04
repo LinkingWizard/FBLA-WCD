@@ -1,18 +1,20 @@
 <html>
 <head>
     <!--What it displays on the tab description-->
-    <title>Website Header - Description</title>
+    <title>Title - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="banner">
+    <div class="homebanner">
         <div class="navbar">
             <!--The logo in the top left corner, currently a temporary graphic-->
-            <img src="logo.png" class="logo">
+            <a href="#">
+                <img src="logo.png" class="logo">
+            </a>
             <ul>
                 <!--The different buttons for the navigation bar-->
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="#">Positions</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -22,10 +24,17 @@
             <h1>HEADING</h1>
             <p>Some sample text goes here to demonstrate how it holds space.<br>Wow look at that two lines.</p>
             <div>
-                <button type="button"><span></span>LEARN MORE</button>
+                <a href="#homebody">
+                    <button type="button"><span></span>LEARN MORE</button>
+                </a>
                 <button type="button"><span></span>CONTACT US</button>
             </div>
         </div>
     </div>
+    <section id="homebody">
+    <div class="homebody">
+        
+    </div>
+    </section>
 </body>
 </html>
