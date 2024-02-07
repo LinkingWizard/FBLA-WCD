@@ -7,7 +7,7 @@ html{
     scroll-behavior: smooth;
 }
 /*The background of the main page*/
-.homebanner{
+.home-banner{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.75)),url(background.jpg);
@@ -101,16 +101,55 @@ span{
 button:hover span{
     width: 100%;
 }
-/*The body portion of the homepage*/
-.homebody{
-    width: 100%;
-    height: 100vh;
-    /*Change back to black once done*/
-    background-color: rgb(190, 190, 190);
-    background-size: cover;
-    background-position: center;
+/*Informational cards under the home page banner*/
+.info-cards{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-
+.card{
+    width: 325px;
+    background-color: black;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #960000;
+    border-width: 2px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+/*Makes sure images fit well in cards
+MAKE SURE TO MAKE MATCHING IMAGES IN PHOTOSHOP*/
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .button{
+    display: inline-block;
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #960000;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: white;
+}
 /*The about page*/
 .aboutbanner{
     width: 100%;
