@@ -308,8 +308,7 @@ MAKE SURE TO MAKE MATCHING IMAGES IN PHOTOSHOP*/
     font-weight: 600;
     color: #333;
 }
-.button_container{
-Button{
+submitButton{
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -324,10 +323,9 @@ Button{
     overflow: hidden;
     transition: 0.25s;
 }
-button:hover{
+submitButton:hover{
     color: white;
     background: black;
-}
 }
 .box {
     max-width: 600px;
