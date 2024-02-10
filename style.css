@@ -74,7 +74,7 @@ header{
     padding-bottom: 15px;
 }
 .hamburger{
-    margin-right: 15px;
+    margin-right: 35px;
     display: none;
     cursor: pointer;
 }
@@ -303,6 +303,7 @@ MAKE SURE TO MAKE MATCHING IMAGES IN PHOTOSHOP*/
     background: #eae7dc;
 }
 .contact-body{
+    margin: auto;
     position: relative;
     max-width: 900px;
     background-color: #fff;
@@ -316,24 +317,26 @@ MAKE SURE TO MAKE MATCHING IMAGES IN PHOTOSHOP*/
     font-weight: 600;
     color: #333;
 }
-#submitButton{
+.button_container{
+Button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
     border-radius: 5px;
     font-weight: bold;
-    border: 2px solid red;
+    border: 2px solid black;
     background: transparent;
-    color: red;
+    color: black;
     cursor: pointer;
     position: relative;
     overflow: hidden;
     transition: 0.25s;
 }
 button:hover{
-    color: black;
-    background: white;
+    color: white;
+    background: black;
+}
 }
 .box {
     max-width: 600px;
@@ -341,6 +344,7 @@ button:hover{
     background: white;
     margin: 0 auto;
     margin-top: 50px;
+    margin-left: auto;
     /*box-shadow: 4px 3px 5px wheat;*/
     border-radius: 10px;
 }
@@ -390,10 +394,10 @@ input:focus{
 
 .about-body{
     width: 100%;
-    padding: 98px;
+    padding: 18px;
 }
 .about-body img{
-    margin-top: 55px;
+    margin-top: 25px;
     height: auto;
     width: 520px;
 }
