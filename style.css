@@ -291,6 +291,7 @@ MAKE SURE TO MAKE MATCHING IMAGES IN PHOTOSHOP*/
     background-color: #666;
     color: white;
 }
+<<<<<<< HEAD
 /*The job application page*/
 #contact{
     min-height: 100bh;
@@ -384,3 +385,57 @@ input:focus{
     grid-column: 1 / span 1;
 } 
 }
+=======
+
+.about-body{
+    width: 100%;
+    padding: 98px;
+}
+.about-body img{
+    margin-top: 55px;
+    height: auto;
+    width: 520px;
+}
+.about-text{
+    width: 550px;
+}
+.about-text h1{
+    color: black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 65px;
+}
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+.about-main{
+    margin-top: 45px;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text .button{
+    display: inline-block;
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #666;
+    background-color: #eae7dc;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: black;
+    transition: 0.25s;
+}
+.about-text .button:hover{
+    background-color: #666;
+    color: white;
+}
+>>>>>>> c8e401479ea019956f7bf35bf0f622835f29ed3b
