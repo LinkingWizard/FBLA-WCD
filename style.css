@@ -33,8 +33,8 @@ header{
     width: 100%;
 }
 .logo{
-    margin-left: 15px;
-    width: 150px;
+    margin-left: 25px;
+    width: 200px;
     cursor: pointer;
 }
 .navbar ul li{
@@ -176,7 +176,7 @@ button:hover span{
 */
 /*Informational cards under the home page banner*/
 .info-cards{
-    margin: 10% 10% 5% 10%;
+    margin: 10% 10% 0% 10%;
     display: flex;
     background-color: transparent;
     justify-content: center;
