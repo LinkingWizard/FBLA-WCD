@@ -233,15 +233,6 @@ MAKE SURE TO MAKE MATCHING IMAGES IN PHOTOSHOP*/
     color: white;
 }
 
-/*The about page*/
-.aboutbanner{
-    width: 100%;
-    height: 50vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgb(0, 0, 0)),url(about-background.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
 /*The our story page*/
 .our-story-body{
     width: 100%;
@@ -392,6 +383,14 @@ input:focus{
 } 
 }
 
+/*The about page*/
+.about-banner{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgb(0, 0, 0)),url(about-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .about-body{
     width: 100%;
     padding: 18px;
@@ -442,4 +441,20 @@ input:focus{
 .about-text .button:hover{
     background-color: #666;
     color: white;
+}
+
+/*The Positions Page*/
+.positions-banner{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgb(0, 0, 0)),url(about-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.positions-body{
+    margin: 10% 10% 0% 10%;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    flex-wrap: wrap;
 }
