@@ -291,7 +291,6 @@ MAKE SURE TO MAKE MATCHING IMAGES IN PHOTOSHOP*/
     background-color: #666;
     color: white;
 }
-<<<<<<< HEAD
 /*The job application page*/
 #contact{
     min-height: 100bh;
@@ -385,7 +384,6 @@ input:focus{
     grid-column: 1 / span 1;
 } 
 }
-=======
 
 .about-body{
     width: 100%;
@@ -438,4 +436,3 @@ input:focus{
     background-color: #666;
     color: white;
 }
->>>>>>> c8e401479ea019956f7bf35bf0f622835f29ed3b
