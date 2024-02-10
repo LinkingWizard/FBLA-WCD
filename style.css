@@ -176,7 +176,7 @@ button:hover span{
 */
 /*Informational cards under the home page banner*/
 .info-cards{
-    margin: 10%;
+    margin: 10% 10% 5% 10%;
     display: flex;
     background-color: transparent;
     justify-content: center;
